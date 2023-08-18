@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: TitrPlus;
+  src: url("./assets/fonts/TitrPlus.ttf");
+}
+@font-face {
+  font-family: BYekan;
+  src: url("./assets/fonts/BYekan.ttf");
+}
+
+:root {
+  font-family: BYekan;
+  line-height: 1.5;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  isolation: isolate;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  user-select: none;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1.5;
+  overflow-x: hidden;
+  margin-bottom: 23rem;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    margin-bottom: 0;
+  }
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+a {
+  text-decoration: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: #64ccc5 !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #176b87 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 3rem;
+  height: 3rem;
+  color: transparent !important;
+  background: url("./assets/icons/ArrowSwiperBg.png") center/cover no-repeat;
+}
+.swiper-button-prev {
+  transform: rotate(180deg) !important;
+}
+
+.swiper-pagination-bullet {
+  width: 0.8rem !important;
+  height: 0.8rem !important;
+  border-radius: 50%;
+  border-bottom: 0.15rem solid transparent !important;
+}
+.dark .swiper-pagination-bullet {
+  background-color: lightgray;
+}
+.swiper-pagination-bullet-active {
+  border-bottom: 0.15rem solid snow !important;
+  opacity: 1 !important;
+}
+.dark .swiper-pagination-bullet-active {
+  background-color: lightseagreen;
+}
