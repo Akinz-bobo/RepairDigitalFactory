@@ -1,6 +1,7 @@
 {
   "name": "computer-services",
   "private": true,
+  "homepage": "https://Akinz-bobo.github.io/RepairDigitalFactory",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
