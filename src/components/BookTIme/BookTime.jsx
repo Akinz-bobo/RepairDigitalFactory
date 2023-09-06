@@ -26,7 +26,7 @@ const BookTime = () => {
         <div className="hidden lg:basis-2/5 lg:block">
           <img
             src={OnlineAppointment.picSource}
-            className="absolute bottom-0 w-1/4 object-fit left-24"
+            className="absolute bottom-0 w-1/4 object-fit right-24"
             alt="BookTime"
           />
         </div>

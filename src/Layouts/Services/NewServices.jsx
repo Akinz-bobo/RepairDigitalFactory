@@ -13,7 +13,7 @@ const NewService = () => {
     <section className="w-5/6 mx-auto">
       <h1 className="relative mb-10 text-2xl font-bold md:3xl lg:text-4xl ">
         <span className="absolute rounded-full -top-3 -right-4 w-14 h-14 bg-third-color dark:bg-second-color "></span>
-        <p className="relative z-10 font-TitrPlus">خدمات جدید</p>
+        <p className="relative z-10 font-TitrPlus">New Services</p>
       </h1>
 
       <div className="w-full lg:p-8">

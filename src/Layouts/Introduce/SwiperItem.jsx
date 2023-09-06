@@ -14,7 +14,7 @@ const SwiperItem = ({ prefix, title, description, href, imgSource, order }) => {
             className="p-2 px-6 rounded bg-second-color hover:bg-third-color "
             href={href}
           >
-            ادامه
+            Continuation
           </a>
         </div>
       </div>

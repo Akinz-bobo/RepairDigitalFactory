@@ -11,7 +11,7 @@ const AboutUsSwiperItem = ({ item }) => {
       </h1>
       <p className="text-sm text-slate-300">{item.description}</p>
       <button className="mt-auto font-bold hover:text-green-300">
-        بیشتر بخوانید
+        Read more
       </button>
     </div>
   );

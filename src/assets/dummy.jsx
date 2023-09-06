@@ -29,23 +29,23 @@ import {
 
 export const NavbarItems = [
   {
-    name: "صفحه اصلی",
+    name: "Home",
     href: "#Home",
   },
   {
-    name: "درباره ما",
+    name: "About us",
     href: "#AboutUs",
   },
   {
-    name: "خدمات",
+    name: "Services",
     href: "#Services",
   },
   {
-    name: "متخصصین",
+    name: "Specialists",
     href: "#Experts",
   },
   {
-    name: "نظرات مشتریان",
+    name: "Customer's Comments",
     href: "#Comments",
   },
 ];
@@ -53,97 +53,91 @@ export const NavbarItems = [
 export const IntroduceData = [
   {
     bgSource: Banner2,
-    prefix: "چیزی که شما احتباج دارید",
+    prefix: "What are you holding",
     title: (
       <p>
-        یک تیم حرفه ایی <br /> تجربه و خدمات
+        A professional <br />
+        team of experience and services
       </p>
     ),
     href: "#",
     description: (
-      <p>
-        همواره در تلاشیم بهترین تیم رو به استخدام شرکت در بیاوریم که بتوانیم بهترین
-        سرعت و کیفیت را برای مشتریان خود رقم بزنیم
-      </p>
+      <p>We are always trying to recruit the best team for the company so that we can provide the best speed and quality for our customers.</p>
     ),
     order: "order-1",
   },
   {
     bgSource: Banner1,
-    prefix: "کیفیت یعنی علم بالا",
-    title: <p>تحلیل گران سیستم</p>,
+    prefix: " ",
+    title: <p>Systemo Analyst</p>,
     href: "#",
     description: (
+
       <ul>
-        <li>تعمیرات تخصصی کامپیوتر و لپ تاپ در منزل و محل کار شما</li>
-        <li>ارائه کلیه خدمات سخت افزاری و نرم افزاری</li>
-        <li>نصب و راه اندازی شبکه و پرینتر</li>
-        <li>بازیابی اطلاعت هارد و تلفن همراه</li>
-        <li>گارانتی خدمات و مشاوره رایگان</li>
+        <li>Specialize in  computer and laptop repair at your home and work place</li>
+        <li>Provide all hardware and software services</li>
+        <li> Network and printer installation</li>
+        <li>Hard drive and mobile phone data recovery</li>
+        <li>Service guarranteed and free consultation</li>
       </ul>
     ),
   },
 ];
 
 export const AboutData = {
-  title: "تعمیرات عالی با متخصصین تحلیل گران سیستم",
+  title: "Excellent repair with expert system analysts",
   description: (
     <p>
-      تحلیل گران سیستم از سال 1384 و با رویکرد خدمت رسانی به تمامی هموطنان عزیز
-      پایه‌گذاری شد، تا با بهره‌گیری ازکارشناسان مجرب در تمامی زمینه‌های رایانه‌ای و
-      موبایل و تبلت، پاسخگوی سوالات و مشکلات رایانه ای هموطنان عزیز باشد.
+      System analyst was found in 2014 with the approach of serving all our  dear compatriots, to answer the question and computer problems of our customers by using experienced experts in all computer, mobile and tablet fields.
       <br />
       <br />
-      تحلیل گران سیستم قزوین آمادگی خود را جهت ارائه خدمات کامپیوتری به شرکتها ،
-      سازمان ها و ارگان های دولتی و خصوصی به صورت موردی و قرارداد همکاری اعلام می
-      دارد
+      Tekdroid  System analyst announces its readiness to provide computer services to companies, private and public organizations and the general public on case-by-case and contract basis.
       <br />
       <br />
-      تلاش ما استفاده ار تکنولوژی های روز دنیا جهت رفع نیاز های مشتریان با سه مشخصه
-      کیفیت مطلوب ، صرفه جویی در زمان و هزینه مناسب می باشد.
+      It is convenient, time and money saving.
     </p>
   ),
 };
 
 export const AboutDataSwiper = [
   {
-    title: "تعمیر کامپیوتر در محل",
+    title: "On-site computer repair",
     description:
-      "یکی از اهداف مهم تحلیل گران سیستم قزوین تعمیر کامپیوتر در محل مشتری  می باشد.با توجه به حجم بالای ترافیک و بالا رفتن ارزش وقت برای مردم این نیاز یک امری بدیهی است که توسط تحلیل گران سیستم براورده می شود.",
+      "One of the most important goal of Tekdroid System Analyst is to repair the  computer at the customer's place. Considering the high volume of traffic and the increasing value of time of people, this necessitated that system analyst ensure less cost on the customers and that's our priority at Tekdroid.",
     bgColor: "bg-blue-900",
   },
   {
-    title: "تعمیر چاپگر در محل",
+    title: "On-site printer repair",
     description:
-      "هدف دیگر تحلیل گران سیستم قزوین این است که علاوه بر تعمیر کامپیوتر  در محل ، تعمیر لپ تاپ در محل را نیز انجام بدهد. البته تمامی تعمیر لپ تاپ در محل شاید امکان پذیر نباشد. ولی تحلیل گران سیستم سعی کرده که تا حد امکان تعمیر لپ تاپ در محل مشتری انجام بگیرد.",
+      "One of the most important goal of Tekdroid System Analyst is to repair the  computer at the customer's place. Considering the high volume of traffic and the increasing value of time of people, this necessitated that system analyst ensure less cost on the customers and that's our priority at Tekdroid.",
     bgColor: "bg-second-color",
   },
   {
-    title: "تعمیر لپتاپ در محل",
+    title: "Laptop repair on-site",
     description:
-      "یکی از اهداف مهم تحلیل گران سیستم قزوین تعمیر کامپیوتر در محل مشتری  می باشد.با توجه به حجم بالای ترافیک و بالا رفتن ارزش وقت برای مردم این نیاز یک امری بدیهی است که توسط تحلیل گران سیستم براورده می شود.",
+      "One of the most important goal of Tekdroid System Analyst is to repair the  computer at the customer's place. Considering the high volume of traffic and the increasing value of time of people, this necessitated that system analyst ensure less cost on the customers and that's our priority at Tekdroid.",
     bgColor: "bg-blue-950",
   },
 ];
 
 export const FunFact = [
   {
-    title: "پروژه موفقیت آمیز",
+    title: "Succesful Projects",
     count: "254",
     icon: FunFact1,
   },
   {
-    title: "متخصصین",
+    title: "Specialists",
     count: "5",
     icon: FunFact2,
   },
   {
-    title: "خدمات",
+    title: "Services",
     count: "43",
     icon: FunFact3,
   },
   {
-    title: "سابقه",
+    title: "Histories",
     count: "254",
     icon: FunFact4,
   },
@@ -152,173 +146,171 @@ export const FunFact = [
 export const ServicesData = [
   {
     picSource: service1,
-    title: "تعمیر کامپیوتر",
+    title: "Laptop Repair",
     description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
     href: "#",
   },
   {
     picSource: service2,
-    title: "تعمیر لپ تاپ",
+    title: "Computer Repair",
     description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
     href: "#",
   },
   {
     picSource: service3,
-    title: "تعمیر چاپگر",
+    title: "Mobile Phone Repair",
     description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
     href: "#",
   },
   {
     picSource: service4,
-    title: "تعمیر کنسول",
+    title: "Game Repair",
     description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
     href: "#",
   },
   {
     picSource: service5,
-    title: "تعمیر دوربین",
+    title: "Printer Repair",
     description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
     href: "#",
   },
   {
     picSource: service6,
-    title: "طراحی وبسایت",
+    title: "SmartWatch Repair",
     description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
     href: "#",
   },
 ];
 
 export const NewServicesData = [
   {
-    picSource: service5,
-    title: "تعمیر کامپیوتر",
-    description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
-    href: "#",
-  },
-  {
-    picSource: service6,
-    title: "تعمیر لپ تاپ",
-    description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
-    href: "#",
-  },
-  {
-    picSource: service4,
-    title: "تعمیر کامپیوتر",
-    description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
-    href: "#",
-  },
-  {
     picSource: service1,
-    title: "تعمیر لپ تاپ",
+    title: "Laptop Repair",
     description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
-    href: "#",
-  },
-
-  {
-    picSource: service3,
-    title: "تعمیر کامپیوتر",
-    description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
     href: "#",
   },
   {
     picSource: service2,
-    title: "تعمیر لپ تاپ",
+    title: "Computer Repair",
     description:
-      "تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی انجام میشود تعمیر کامپیوتر در محل با بهترین کیفیت و کارایی اراعه میشود , امید است راضی کننده باشد",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
+    href: "#",
+  },
+  {
+    picSource: service3,
+    title: "Mobile Phone Repair",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
+    href: "#",
+  },
+  {
+    picSource: service4,
+    title: "Game Repair",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
+    href: "#",
+  },
+  {
+    picSource: service5,
+    title: "Printer Repair",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
+    href: "#",
+  },
+  {
+    picSource: service6,
+    title: "SmartWatch Repair",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit voluptatum dolores totam assumenda, minima soluta omnis repellat dolore veniam. Iure, aperiam unde dolorem explicabo adipisci vitae qui est sint!",
     href: "#",
   },
 ];
-
 export const OnlineAppointment = {
   picSource: BookTimePic,
-  title: "گرفتن قرار برای خدمات در محل",
-  ButtonTxt: "ملاقات آنلاین",
+  title: "Make appointment for on-site services",
+  ButtonTxt: "Chose A Date",
   description:
-    "سیستم خدمات رسانی در محل و ملاقات حضوری با ثبت آنلاینسیستم خدمات رسانی در محل و ملاقات حضوری بار محل و ملاقات حضوری با ثبت آنلاین",
+    "Online services system and face to face meeting with online reguistration",
 };
 
 export const WhyChooseUsData = [
   {
     icon: WhyChoseUs3,
-    title: "پاسخگویی سریع",
+    title: "Fast Response",
     description:
-      "این تیم سعی میکند تا با بهترین روش و متد های روز دنیا پاسخ های شما عزیزان را بدهد",
+      "Our team respond speedily and accurately, We deliver our services outstandingly and very fast.",
   },
   {
     icon: WhyChoseUs2,
-    title: "کارایی بهتر",
-    description: "تمام تلاش این تیم برای رساندن خدمات به صورت عالی است",
+    title: "Better Performance",
+    description: "Our team put efforts together to deliver better services",
   },
   {
     icon: WhyChoseUs1,
-    title: "بهترین خدمات",
+    title: "The Best Services You Can Get",
     description:
-      "این تیم سعی میکند تا با بهترین روش و متد های روز دنیا پاسخ های شما عزیزان را بدهد",
+      "This team uses the best strategies and moddern diagnostic approach in our works.",
   },
 ];
 
 export const OurTeamData = [
   {
     bgSource: TeamMember1,
-    name: "مهندس صادقی",
-    position: "مدیر عامل",
+    name: "Engineer Michael",
+    position: "HOD DevOps",
   },
   {
     bgSource: TeamMember2,
-    name: "مهندس عظیمی",
-    position: "برنامه نویس",
+    name: "Dr. Shammah",
+    position: "Design Lead",
   },
   {
     bgSource: TeamMember3,
-    name: "مهندس مهرعلیان",
-    position: "مغز سخت افزار",
+    name: "Engineer Akinola",
+    position: "Senior System Manager",
   },
   {
     bgSource: TeamMember4,
-    name: "مهندس حبیب زاده",
-    position: "تعمیرکار",
+    name: "Engineer Bolaji",
+    position: "Lead QA Engineer",
   },
 ];
 
 export const CostumerCommentsData = [
   {
     bgSource: commentPic1,
-    name: "علی منصوری",
-    position: "مدیر کل",
+    name: "Don Jazzy",
+    position: "Music Producer",
     commentText:
-      "سلام خیلی از خدمات به موقع و عالی شما لذت بردم خدا خیرتون بده . حتما پیشنهاد میکنم به دیگران",
+      "Hello, I really enjoyed your timely and excellent services. May God bless you. I will definately recommend you to collegues",
   },
   {
     bgSource: commentPic2,
-    name: "داریوش حیدری",
-    position: "سازمان تبلیغات",
+    name: "Dansu Emmanuel",
+    position: "CEO Emmagene Shoes",
     commentText:
-      "سلام خیلی از خدمات به موقع و عالی شما لذت بردم خدا خیرتون بده . حتما پیشنهاد میکنم به دیگران",
+      "Hello, I really enjoyed your timely and excellent services. May God bless you. I will definately recommend you to collegues",
   },
   {
     bgSource: commentPic3,
-    name: "اتوسا گردینه",
-    position: "کاربر ویژه",
+    name: "Akinroye Emmanuel",
+    position: "Director of Boledemy",
     commentText:
-      "سلام خیلی از خدمات به موقع و عالی شما لذت بردم خدا خیرتون بده . حتما پیشنهاد میکنم به دیگران",
+      "Hello, I really enjoyed your timely and excellent services. May God bless you. I will definately recommend you to collegues",
   },
   {
     bgSource: commentPic1,
-    name: "علی منصوری",
-    position: "مدیر کل",
+    name: "Adeyemo Akinola",
+    position: "CEO Tekdroid",
     commentText:
-      "سلام خیلی از خدمات به موقع و عالی شما لذت بردم خدا خیرتون بده . حتما پیشنهاد میکنم به دیگران",
+      "Hello, I really enjoyed your timely and excellent services. May God bless you. I will definately recommend you to collegues",
   },
 ];
 

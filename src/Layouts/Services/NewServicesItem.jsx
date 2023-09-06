@@ -12,7 +12,7 @@ const NewServiceItem = ({ title, description, picSource }) => {
         </h2>
         <p className="text-xs lg:text-sm line-clamp-2 text-md">{description}</p>
         <button className="text-xs text-second-color dark:text-third-color">
-          اطلاعات بیشتر
+          More Information
         </button>
       </div>
     </>

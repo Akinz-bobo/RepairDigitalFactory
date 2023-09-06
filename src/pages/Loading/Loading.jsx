@@ -6,7 +6,7 @@ const Loading = () => {
     <section className={`${Styles.LoadingContainer} flex flex-col gap-10`}>
       <h1 className="text-2xl font-bold text-txt-color font-TitrPlus">
         {" "}
-        در حال بارگزاری , لطفا منتظر بمانید.
+        Loading, please wait...
       </h1>
       <div className={`${Styles["lds-roller"]}`}>
         <div></div>

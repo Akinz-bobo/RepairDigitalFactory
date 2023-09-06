@@ -32,9 +32,10 @@ const Introduce = () => {
                 imgSource={item.bgSource}
                 prefix={item.prefix}
                 title={item.title}
-                description="همواره در تلاشیم بهترین تیم رو به استخدام شرکت در بیاوریم که بتوانیم بهترین سرعت و کیفیت را برای مشتریان خود رقم بزنیم"
+                description={item.description}
                 href="#"
               />
+
             </SwiperSlide>
           );
         })}
