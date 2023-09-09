@@ -10,7 +10,7 @@ const ServiceItem = ({ title, picSource, description }) => {
         <h2 className="mx-auto text-2xl font-bold font-TitrPlus">{title}</h2>
         <p className="text-sm text-slate-400 line-clamp-3">{description}</p>
         <button className="text-second-color hover:text-third-color">
-          اطلاعات بیشتر
+          More Information
         </button>
       </div>
     </>
