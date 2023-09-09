@@ -9,11 +9,10 @@ const ResponsiveMenu = () => {
   const { setActiveMenu, ActiveMenu, DarkMode, setTheme } = UseStateContext();
   return (
     <section
-      className={`${
-        ActiveMenu == false
-          ? Styles["menu--container"]
-          : Styles["menu--container-show"]
-      }  fixed top-0 left-0 w-full min-h-full p-4 text-main-color bg-txt-color dark:text-txt-color dark:bg-slate-800 z-50`}
+      className={`${ActiveMenu == false
+        ? Styles["menu--container"]
+        : Styles["menu--container-show"]
+        }  fixed top-0 left-0 w-full min-h-full p-4 text-main-color bg-txt-color dark:text-txt-color dark:bg-slate-800 z-50`}
     >
       <div className="flex items-center justify-between p-8 pb-6">
         <button
@@ -45,7 +44,7 @@ const ResponsiveMenu = () => {
       </div>
 
       <nav>
-        <ul className="flex flex-col justify-around py-10 h-72 " dir="rtl">
+        <ul className="flex flex-col justify-around ml-8 py-10 h-72 " >
           {NavbarItems.map((item, idx) => {
             return (
               <LinkResponsiveMenu key={idx} name={item.name} href={item.href} />
@@ -55,7 +54,7 @@ const ResponsiveMenu = () => {
       </nav>
 
       {/* <hr className="my-4" /> */}
-      <div className="flex justify-start gap-4 mt-4 socialMedia">
+      <div className="flex justify-start gap-4 mt-4 ml-6 socialMedia">
         {SocialMediaData.map((item, idx) => {
           return <LinkSocialMedia key={idx} href={item.href} icon={item.icon} />;
         })}

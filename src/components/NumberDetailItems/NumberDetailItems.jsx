@@ -9,11 +9,11 @@ const NumberDetailItems = ({ count, title, icon }) => {
       onEnter={() => setOnscroll(true)}
       onExit={() => setOnscroll(false)}
     >
-      <div className="flex items-center justify-center w-full h-20 gap-2 md:w-auto">
-        <div>
+      <div className="flex  gap-2 item-center lg:justify-center lg:w-full w-[80%] mx-auto h-20  md:w-auto">
+        <div className="">
           <img className="w-16" src={icon} alt="icon" />
         </div>
-        <div>
+        <div className="flex-1 w-[70%]">
           <span className="text-lg md:text-2xl text-second-color dark:text-txt-color">
             +{OnScroll && <CountUp start={0} end={count} delay={0} />}
           </span>
